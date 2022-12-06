@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./img/mouse-clicker.png">
+	<link rel="stylesheet" href="./style/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<title>Clicker-game</title>
+</head>
+<body>
+
+	<div class="wrap">
+		<div class="clickerContainer">
+			<div class="header">
+				<div class="header__top">
+					<p class="header__menu">Total Cliks: <span id="perclick__header">0</span></p>
+					<p class="header__menu">Per Second: <span id="perclick__header2">0</span></p>
+
+				</div>
+				<div class="header__down">
+					<p class="h1">0</p>
+				</div>
+			</div>
+			<div class="main">
+				<div class="main__header">
+					<button class="bubbly-button main__button">Click + <span id="click">1</span></button>
+				</div>
+				<div class="main__down">
+					<div class="byu__container">
+						<button  class="bubbly-button custom__widht buyClick__button">1+ on click</button>
+						<p class="byu__prize">Cost: <span id="cost">20</span></p>
+					</div>
+					<div class="byu__container">
+						<button id="buypre__button" class="bubbly-button custom__widht byu__prize22">1+ pre second</button>
+						<p class="byu__prize">Cost: <span id="costpre">40</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="restart__button bubbly-button" >Restart</button>
+	</div>
+	
+
+
+
+
+
+	<script src="./script/main.js"></script>
+</body>
+</html>

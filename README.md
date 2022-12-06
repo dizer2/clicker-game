@@ -2,10 +2,10 @@
 This is clicker-game which you money = click, enjoy yourself 🙂😎😉
 <div></div>
 ### Main features: 
-- Html
-- Scsss
-- Bem used
-- JQuery
+ - Html
+ - Scsss
+ - Bem used
+ - JQuery
 
 ---
 
